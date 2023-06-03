@@ -111,25 +111,6 @@ nav ul li a:hover {
 
 }
 
-@media (max-width:1500px){
-  nav ul li {
-    margin-right: 10px;
-}
-
-
-  .caja{
-    display: flex;
-    background-color: #7c7c84;
-    height: 750px;
-    width: 2350px;
-    padding-top: 44px;
-  }
-
-  .inicio{
-    margin-left: 10%;
-  }
-}
-
 
 .inicio{
     display: flexbox;
@@ -246,7 +227,7 @@ nav ul li a:hover {
   .swiper-pagination-bullet-active {
     opacity: 1;
   }
-  
+
   @media (max-width:1500px){
     nav ul li {
       margin-right: 10px;
@@ -266,7 +247,34 @@ nav ul li a:hover {
     }
   }
   
-  @media (max-width:800px){
+  
+  @media (max-width:1024px){
+    nav ul li {
+      margin-right: 10px;
+  }
+  
+  
+    .caja{
+      display: flex;
+      background-color: #7c7c84;
+      height: 750px;
+      width: 2350px;
+      padding-top: 44px;
+    }
+  
+    .inicio{
+      margin-left: 10%;
+    }
+  }
+  
+  @media (max-width: 1200px ){
+    nav ul li {
+      margin-right: 170px;
+  }
+  }
+
+  
+  @media (max-width:768px){
     nav ul li {
       margin-right: 18px;
   }
@@ -282,7 +290,7 @@ nav ul li a:hover {
   .caja{
     display: flex;
     background-color: #7c7c84;
-    height: 1400px;
+    height: 2300px;
     width: 1220px;
     padding-top: 44px;
   }
@@ -290,9 +298,9 @@ nav ul li a:hover {
   .cont{
     display: flex;
     background-color: #3f3fbf;
-    width: 500px;
-    height: 600px;
-    margin-top: 60%;
+    width: 700px;
+    height: 1000px;
+    margin-top: 100%;
     margin-left: -50%;
     overflow: hidden;
   }
@@ -308,6 +316,35 @@ nav ul li a:hover {
     display: flex;
     justify-content: center;
     margin-left: 33%;
-    margin-bottom: -80%;
+    margin-bottom: 5%;
   }
+
+  .inicio{
+    width: 900px;
+    margin-left: 0;
+  }
+
+  .welcome{
+    width: 1000px;
+    height: 450px;
+    margin-left: 15%;
+    margin-right: auto;
+    display: flex;
+    font-weight: 800;
+    font-size: 70px;
+}
+
+.w1{
+    width: 1000px;
+    font-size: 40px;
+    margin-left: 15%;
+    color: #ffffff;
+    padding-left: 4%;
+    padding-bottom: 5%;
+    
+}
+
+.boton{
+  margin-top: 7%;
+}
 }
