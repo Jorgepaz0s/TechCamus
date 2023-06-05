@@ -31,6 +31,10 @@ header {
   display: none;
 }
 
+.contact2{
+  display: none;
+}
+
 nav {
     background-color: #000000;
     padding: 10px;
@@ -234,7 +238,7 @@ nav ul li a:hover {
 
   @media (max-width:1500px){
     nav ul li {
-      margin-right: 10px;
+      margin-right: 170px;
   }
   
   
@@ -279,6 +283,11 @@ nav ul li a:hover {
 
   
   @media (max-width:768px){
+
+    body{
+      overflow: hidden;
+    }
+
     header {
       position: fixed;
       top: 0;
@@ -306,12 +315,12 @@ nav ul li a:hover {
   nav {
     display: flex;
     flex-direction: column; /* Alinear los elementos verticalmente */
-  align-items: flex-start; /* Alinear los elementos a la izquierda */
-    margin-left: -65%;
-    margin-top: 125%;
+    align-items: flex-start; /* Alinear los elementos a la izquierda */
+    margin-left: -55%;
+    margin-top: 112%;
     padding: 10px;
     width: 200px ;
-    height: 350px;
+    height: 300px;
     opacity: 0.9;
 }
 nav ul {
@@ -430,7 +439,7 @@ header {
 
 nav {
   display: none;
-  background-color: #333333;
+  background-color: #000000;
 }
 
 nav ul {
@@ -449,8 +458,12 @@ nav ul li {
 }
 
 nav ul li a {
-  color: #000000;
+  color: #ffffff;
   text-decoration: none;
+}
+
+nav ul li a:hover {
+  color: #3f3fbf;;
 }
 
 /* Estilos para el menú desplegable */
@@ -466,10 +479,45 @@ nav.nav-active {
 }
 
 
-.logores{
+.contact2 {
+  color: #04040c;
+  transition: color 0.3s;
+  position: relative;
   display: flex;
-  width: 90px;
-  margin-left: 25%;
+  padding: 5px 15px;
+  background-color: #3f3fbf;
+  border-radius: 16px;
+  text-decoration: none;
+  font-weight: bold;
+  left: 45%;
+}
+
+.contact2:hover {
+  background-color: #9b9bdd;
+}
+
+.contact2::after {
+  content: "";
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #04040c;
+  opacity: 0.3;
+  border-radius: 8px;
+  z-index: -1;
+  transition: opacity 0.3s;
+}
+
+.contact2:hover::after {
+  opacity: 0.6;
+}
+.logores{
+  position: absolute;
+  display: flex;
+  width: 110px;
+  left:60px;
 }
 
 }
