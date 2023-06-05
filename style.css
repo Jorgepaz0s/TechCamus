@@ -286,6 +286,9 @@ nav ul li a:hover {
 
     body{
       overflow: hidden;
+      background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
     }
 
     header {
@@ -313,11 +316,11 @@ nav ul li a:hover {
 }
 
   nav {
-    display: flex;
+    display: absolute;
     flex-direction: column; /* Alinear los elementos verticalmente */
     align-items: flex-start; /* Alinear los elementos a la izquierda */
-    margin-left: -55%;
-    margin-top: 112%;
+    margin-left: -56%;
+    margin-top: 108%;
     padding: 10px;
     width: 200px ;
     height: 300px;
@@ -338,7 +341,7 @@ nav ul li {
     display: flex;
     background-color: #7c7c84;
     height: 1100px;
-    width: 350px;
+    width: 100%;
     padding-top: 44px;
   }
 
@@ -400,7 +403,7 @@ nav ul li {
 .swiper-pagination {
   position: relative;
   bottom: 20px;
-  left: 50%;
+  left: 10%;
   transform: translateX(-50%);
   display: flex;
   justify-content: center;
@@ -420,6 +423,7 @@ header {
   background-color: #000000;
   padding: 10px;
   color: #fff;
+  width: 100%;
 }
 
 .hamburger {
