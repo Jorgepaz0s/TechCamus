@@ -340,6 +340,7 @@ nav ul li {
     height: 3000px;
     width: 768px;
     padding-top: 44px;
+    padding-left: 20px;
   }
 
   .cont{
@@ -420,7 +421,7 @@ header {
   background-color: #000000;
   padding: 10px;
   color: #fff;
-  width: 748px;
+  width: 768px;
   height: 65px;
   
 }
