@@ -11,6 +11,10 @@ p {
     font-family: 'MuseoModerno', cursive;
 }
 
+html{
+  overflow-x: hidden;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -236,7 +240,7 @@ nav ul li a:hover {
     opacity: 1;
   }
 
-  @media (max-width:1500px){
+  @media only screen and (min-width:1201px) and(max-width:1500px){
     nav ul li {
       margin-right: 170px;
   }
@@ -256,37 +260,87 @@ nav ul li a:hover {
   }
   
   
-  @media (max-width:1024px){
+  @media only screen and (min-width:769px) and (max-width:1024px){
     nav ul li {
       margin-right: 10px;
+      font-size: 13px;
   }
   
+  body{
+    width: 1024px;
+    height: 100%;
+  }
+
+  header{
+    width: 1024px;
+  }
   
   .caja{
-      display: flex;
-      background-color: #7c7c84;
-      height: 750px;
-      width: 2350px;
-      padding-top: 44px;
+      width: 1024px;
     }
   
+    .welcome{
+      font-size: 30px;
+      width: 420px;
+      height: 170px;
+    }
+    .w1{
+      font-size: 20px;
+      width: 410px;
+    }
     .inicio{
       margin-left: 10%;
+      margin-top: 80px;
     }
   }
+  .cont{
+    width: 400px;
+    height: 500px;
+    margin-left: 50px;
+    margin-top: 130px;
+  }
   
-  @media (max-width: 1200px ){
+  @media only screen and (min-width:1025px) and (max-width: 1200px ){
+    body{
+      width: 1200px;
+      height: 100%;
+    }
+    header{
+      width: 1200px;
+    }
+    nav{
+      width: 1200px;
+    }
     nav ul li {
-      margin-right: 170px;
+      margin-right: 16px;
   }
+  .caja{
+    height: 2000px;
   }
+ .welcome{
+  font-size: 45px;
+  height: 280px;
+  width: 650px;
+ }
+ .w1{
+  font-size: 25px;
+  width: 600px;
+ }
+ .inicio{
+  margin-left: 40px;
+ }
+.cont{
+    width: 500px;
+    height:600px;
+    margin-left:0%;
+    margin-top: 95px;
+  }
+}
 
   
   @media (max-width:768px){
 
-    body{
-      overflow: hidden;
-    }
+    
 
     header {
       position: fixed;
@@ -525,4 +579,54 @@ nav.nav-active {
   left: 250px;
 }
 
+}
+
+@media(max-width:320px){
+  body{
+    width: 320px;
+    height: 100%;
+  }
+  header{
+    width: 320px;
+  }
+
+  .logores{
+    left: 50px;
+    width:150px
+  }
+  .contact2{
+    left: 51%;
+    padding: 2px 5px;
+    font-size: 15px;
+  }
+  nav{
+    width: 320px;
+  }
+  .caja{
+    width: 320px;
+    height: 1500px
+  }
+  .welcome{
+    font-size: 20px;
+    width: 320px;
+    height: 180px;
+    margin-left: 0;
+
+  }
+  .w1{
+    width: 290px;
+    font-size: 20px;
+    margin-left: 0;
+    
+  }
+  .boton{
+    padding: 10px 20px;
+    margin-left: 0.5px;
+  }
+
+  .cont{
+    margin-top: 774px;
+    margin-left: -105%;
+    width: 290px;
+  }
 }
