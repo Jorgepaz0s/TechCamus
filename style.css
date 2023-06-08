@@ -18,7 +18,6 @@ html{
 body {
     margin: 0;
     padding: 0;
-    overflow-x: hidden;
 }
 
 header {
@@ -192,10 +191,10 @@ nav ul li a:hover {
   .cont{
     display: flex;
     background-color: #3f3fbf;
-    width: 500px;
-    height: 600px;
-    margin-top: 5%;
-    margin-left: 20%;
+    width: 400px;
+    height: 500px;
+    margin-top: 10%;
+    margin-left: 15%;
     overflow: hidden;
   }
   
@@ -257,15 +256,25 @@ nav ul li a:hover {
     .inicio{
       margin-left: 10%;
     }
+    .cont{
+      display: flex;
+      margin-left: none;
+    }
+
   }
   
   
-  @media only screen and (min-width:769px) and (max-width:1024px){
+  @media only screen and (min-width:768px) and (max-width:1024px){
     nav ul li {
       margin-right: 10px;
       font-size: 13px;
   }
-  
+  .cont{
+    width: 400px;
+    height: 500px;
+    margin-left: 50px;
+    margin-top: 130px;
+}
   body{
     width: 1024px;
     height: 100%;
@@ -293,14 +302,10 @@ nav ul li a:hover {
       margin-top: 80px;
     }
   }
-  .cont{
-    width: 400px;
-    height: 500px;
-    margin-left: 50px;
-    margin-top: 130px;
-  }
   
-  @media only screen and (min-width:1025px) and (max-width: 1200px ){
+
+  
+  @media only screen and (min-width:1024px) and (max-width: 1200px ){
     body{
       width: 1200px;
       height: 100%;
@@ -330,10 +335,10 @@ nav ul li a:hover {
   margin-left: 40px;
  }
 .cont{
-    width: 500px;
-    height:600px;
+    width: 400px;
+    height:500px;
     margin-left:0%;
-    margin-top: 95px;
+    margin-top: 150px;
   }
 }
 
@@ -579,6 +584,58 @@ nav.nav-active {
   left: 250px;
 }
 
+}
+
+@media (max-width:500px){
+  body{
+    width: 500px;
+    height: 100%;
+  }
+  header{
+    width: 500px;
+  }
+
+  .logores{
+    left: 50px;
+    width:150px
+  }
+  .contact2{
+    left: 51%;
+    padding: 5px 10px;
+    font-size: 20px;
+  }
+  nav{
+    width: 50px;
+  }
+  .caja{
+    width: 500px;
+    height: 1500px
+  }
+  .welcome{
+    font-size: 25px;
+    width: 450px;
+    height: 200px;
+    margin-left: 15%;
+
+  }
+  .w1{
+    width: 290px;
+    font-size: 20px;
+    margin-left: 20%;
+    justify-content: center;
+    text-align: center;
+    
+  }
+  .boton{
+    padding: 10px 20px;
+    margin-left: 0.5px;
+  }
+
+  .cont{
+    margin-top: 774px;
+    margin-left: -55%;
+    width: 350px;
+  }
 }
 
 @media(max-width:320px){
