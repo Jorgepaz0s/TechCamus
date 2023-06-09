@@ -117,7 +117,7 @@ nav ul li a:hover {
 .caja{
     display: flex;
     background-color: #7c7c84;
-    height: 100%;
+    height: 750px;
     padding-top: 44px;
 
 }
@@ -239,6 +239,112 @@ nav ul li a:hover {
     opacity: 1;
   }
 
+.informacion_inicial:not(.informacion_inicial_titulo){
+  background-color: #3f3fbf;
+  width: 100%;
+  margin-top: -23px;
+  display: flex;
+  justify-content: center;
+}
+.informacion_inicial_titulo{
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  font-size: 50px;
+  color: #fff;
+  margin-top: -1px;
+  width: 1000px;
+}
+
+.programacion{
+
+width: 500px;
+height: 70%;
+margin-top: 8%;
+}
+
+.celular{
+  width: 150px;
+  height: 150px;
+  margin-left: 30%;
+}
+
+.celular_titulo{
+  margin-left: 12%;
+  color: #ffffff;
+  width: 350px;
+}
+
+.celular_text{
+  color: #ffffff;
+  font-size: 22px;
+  width: 400px;
+  height: 150px;
+  margin-left: 2%;
+  display: flex;
+  text-align: center;
+}
+
+.marketing{
+  width: 500px;
+  height: 70%;
+  margin-top: 8%;
+}
+
+.pc{
+  display: flex;
+  width: 150px;
+  height: 150px;
+  margin-left: 30%;
+}
+
+.pc_titulo{
+  margin-left: 13%;
+  color: #ffffff;
+  width: 350px;
+}
+
+.pc_text{
+  color: #ffffff;
+  font-size: 22px;
+  width: 400px;
+  height: 130px;
+  margin-left: 5%;
+  display: flex;
+  text-align: center;
+}
+
+.datos{
+  width: 500px;
+  height: 70%;
+  margin-top: 8%;
+}
+
+.lupa{
+  display: flex;
+  width: 150px;
+  height: 150px;
+  margin-left: 30%;
+}
+
+.lupa_titulo{
+  margin-left: 15%;
+  color: #ffffff;
+  width: 350px;
+}
+
+.lupa_text{
+  color: #ffffff;
+  font-size: 22px;
+  width: 400px;
+  height: 150px;
+  margin-left: 5%;
+  display: flex;
+  text-align: center;
+}
+
+
+
   @media only screen and (min-width:1201px) and(max-width:1500px){
 
     body{
@@ -269,7 +375,6 @@ nav ul li a:hover {
       display: flex;
       margin-left: none;
     }
-
   }
   
   
@@ -309,6 +414,50 @@ nav ul li a:hover {
     .inicio{
       margin-left: 10%;
       margin-top: 80px;
+    }
+    .programacion{
+      width: 330px;
+      height: 70%;
+    }
+
+    .celular{
+      margin-left: 25%;
+    }
+    .celular_text{
+      font-size: 18px;
+      width: 300px;
+    }
+    .celular_titulo{
+      font-size: 25px;
+    }
+    .marketing{
+      width: 330px;
+      height: 70%;
+    }
+    .pc{
+      margin-left: 25%;
+    }
+    .pc_text{
+      font-size: 18px;
+      width: 300px;
+    }
+    .pc_titulo{
+      font-size: 25px;
+    }
+    .datos{
+      width: 330px;
+      height: 70%;
+    }
+    .lupa{
+      margin-left: 25%;
+    }
+    .lupa_text{
+      font-size: 18px;
+      width: 300px;
+    }
+    .lupa_titulo{
+      font-size: 25px;
+      width: 300px;
     }
   }
   
@@ -350,6 +499,7 @@ nav ul li a:hover {
     margin-left:0%;
     margin-top: 150px;
   }
+  
 }
 
   
@@ -357,6 +507,7 @@ nav ul li a:hover {
 
     body{
       width: 768px;
+      height: 100%;
     }
 
     header {
@@ -368,7 +519,7 @@ nav ul li a:hover {
       font-size: 10px;
     }
     
-    
+  
     .logo{
       display: none;
     }
@@ -402,7 +553,7 @@ nav ul li {
   .caja{
     display: flex;
     background-color: #7c7c84;
-    height: 3000px;
+    height: 1800px;
     width: 100%;
     padding-top: 44px;
     padding-left: none;
@@ -474,11 +625,6 @@ nav ul li {
   margin-bottom: 1%;
 }
 
-
-body {
-  margin: 0;
-  padding: 0;
-}
 
 header {
   display: flex;
@@ -588,7 +734,28 @@ nav.nav-active {
   width: 180px;
   left: 50px;
 }
+.informacion_inicial{
+  height: 1500px;
+  justify-content: none;
+}
 
+.informacion_inicial_titulo{
+  font-size: 40px;
+  width: 100%;
+  margin-top: 5%;
+}
+.programacion{
+  margin-left: 1%;
+  margin-top: 15%;
+}
+.marketing{
+margin-top: 70%;
+margin-left: -65%;
+}
+.datos{
+  margin-top: 130%;
+  margin-left: -65%;
+}
 }
 
 @media (max-width:500px){
@@ -641,6 +808,29 @@ nav.nav-active {
     margin-top: 774px;
     margin-left: -55%;
     width: 350px;
+    
+  }
+  .informacion_inicial{
+    height: 1500px;
+    justify-content: none;
+  }
+  
+  .informacion_inicial_titulo{
+    font-size: 30px;
+    width: 100%;
+    margin-top: 5%;
+  }
+  .programacion{
+    margin-left:10%;
+    margin-top: 20%;
+  }
+  .marketing{
+  margin-top: 100%;
+  margin-left: -90%;
+  }
+  .datos{
+    margin-top: 180%;
+    margin-left: -95%;
   }
 }
 
@@ -698,3 +888,4 @@ nav.nav-active {
     width: 300px;
   }
 }
+
