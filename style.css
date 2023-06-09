@@ -240,6 +240,15 @@ nav ul li a:hover {
   }
 
   @media only screen and (min-width:1201px) and(max-width:1500px){
+
+    body{
+      width: 1500px;
+    }
+
+    header{
+      width: 100%;
+    }
+
     nav ul li {
       margin-right: 170px;
   }
@@ -249,7 +258,7 @@ nav ul li a:hover {
       display: flex;
       background-color: #7c7c84;
       height: 750px;
-      width: 2350px;
+      width: 100%;
       padding-top: 44px;
     }
     
@@ -281,11 +290,11 @@ nav ul li a:hover {
   }
 
   header{
-    width: 1024px;
+    width: 100%;
   }
   
   .caja{
-      width: 1024px;
+      width: 100%;
     }
   
     .welcome{
@@ -305,22 +314,23 @@ nav ul li a:hover {
   
 
   
-  @media only screen and (min-width:1024px) and (max-width: 1200px ){
+  @media only screen and (min-width:1024px) and (max-width: 1300px ){
     body{
-      width: 1200px;
+      width: 1300px;
       height: 100%;
     }
     header{
-      width: 1200px;
+      width: 100%;
     }
     nav{
-      width: 1200px;
+      width: 100%;
     }
     nav ul li {
       margin-right: 16px;
   }
   .caja{
-    height: 2000px;
+    width: 100%;
+    height: 850px;
   }
  .welcome{
   font-size: 45px;
@@ -345,16 +355,12 @@ nav ul li a:hover {
   
   @media (max-width:768px){
 
-    
+    body{
+      width: 768px;
+    }
 
     header {
-      position: fixed;
-      top: 0;
-      left: 0;
       width: 100%;
-      background-color: #000000;
-      z-index: 9999;
-      width: 768px;
       height: 5%;
     }
     nav ul li {
@@ -397,9 +403,9 @@ nav ul li {
     display: flex;
     background-color: #7c7c84;
     height: 3000px;
-    width: 768px;
+    width: 100%;
     padding-top: 44px;
-    padding-left: 20px;
+    padding-left: none;
   }
 
   .cont{
@@ -429,7 +435,7 @@ nav ul li {
   }
 
   .welcome{
-    width: 700px;
+    width: 650px;
     height: 300px;
     margin-left: 25%;
     margin-right: auto;
@@ -480,7 +486,6 @@ header {
   background-color: #000000;
   padding: 10px;
   color: #fff;
-  width: 768px;
   height: 65px;
   
 }
@@ -581,7 +586,7 @@ nav.nav-active {
   position: absolute;
   display: flex;
   width: 180px;
-  left: 250px;
+  left: 50px;
 }
 
 }
@@ -592,7 +597,7 @@ nav.nav-active {
     height: 100%;
   }
   header{
-    width: 500px;
+    width: 100%;
   }
 
   .logores{
@@ -609,12 +614,12 @@ nav.nav-active {
     margin-left: -200px;
   }
   .caja{
-    width: 500px;
+    width: 100%;
     height: 1500px
   }
   .welcome{
     font-size: 25px;
-    width: 450px;
+    width: 400px;
     height: 200px;
     margin-left: 15%;
 
@@ -645,7 +650,7 @@ nav.nav-active {
     height: 100%;
   }
   header{
-    width: 320px;
+    width: 100%;
   }
   nav{
   margin-left: -48%;
@@ -663,12 +668,12 @@ nav.nav-active {
     width: 320px;
   }
   .caja{
-    width: 320px;
+    width: 100%;
     height: 1500px
   }
   .welcome{
     font-size: 20px;
-    width: 320px;
+    width: 300px;
     height: 180px;
     margin-left: 0;
 
@@ -686,7 +691,10 @@ nav.nav-active {
 
   .cont{
     margin-top: 774px;
-    margin-left: -105%;
+    margin-left: -88%;
     width: 290px;
+  }
+  .inicio{
+    width: 300px;
   }
 }
