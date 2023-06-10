@@ -742,18 +742,20 @@ nav.nav-active {
 .informacion_inicial_titulo{
   font-size: 40px;
   width: 100%;
-  margin-top: 5%;
+  margin-top: 10%;
+  margin-left: -3%;
+  text-align: center;
 }
 .programacion{
   margin-left: 1%;
-  margin-top: 15%;
+  margin-top: 25%;
 }
 .marketing{
-margin-top: 70%;
+margin-top: 80%;
 margin-left: -65%;
 }
 .datos{
-  margin-top: 130%;
+  margin-top: 140%;
   margin-left: -65%;
 }
 }
@@ -816,20 +818,21 @@ margin-left: -65%;
   }
   
   .informacion_inicial_titulo{
-    font-size: 30px;
+    font-size: 25px;
     width: 100%;
     margin-top: 5%;
+    text-align: center;
   }
   .programacion{
-    margin-left:10%;
-    margin-top: 20%;
+    margin-left:5%;
+    margin-top: 30%;
   }
   .marketing{
-  margin-top: 100%;
-  margin-left: -90%;
+  margin-top: 110%;
+  margin-left: -95%;
   }
   .datos{
-    margin-top: 180%;
+    margin-top: 200%;
     margin-left: -95%;
   }
 }
@@ -886,6 +889,76 @@ margin-left: -65%;
   }
   .inicio{
     width: 300px;
+  }
+
+  .informacion_inicial{
+    height: 1500px;
+    justify-content: none;
+    width: 100%;
+  }
+  
+  .informacion_inicial_titulo{
+    font-size: 25px;
+    width: 100%;
+    margin-top: 5%;
+    text-align: center;
+  }
+  .programacion{
+    margin-left:-15%;
+    width: 100%;
+
+  }
+
+  .celular_titulo{
+    font-size: 20px;
+    width: 210px;
+    margin-left: 22%;
+  }
+  .celular_text{
+    font-size: 15px;
+    width: 250px;
+    margin-left: 15%;
+  }
+  .marketing{
+  margin-top: 160%;
+  width: 100%;
+
+  }
+
+  .pc{
+    margin-left: 25%;
+  }
+
+  .pc_titulo{
+    font-size: 20px;
+    width: 220px;
+    margin-left: 15%;
+  }
+  .pc_text{
+    font-size: 15px;
+    width: 250px;
+    margin-left: 10%;
+  }
+  .datos{
+    margin-top: 300%;
+    margin-left: -115%;
+    width: 100%;
+
+  }
+
+  .lupa{
+    margin-left: 38%;
+  }
+
+  .lupa_titulo{
+    font-size: 20px;
+    width: 210px;
+    margin-left: 30%;
+  }
+  .lupa_text{
+    font-size: 15px;
+    width: 250px;
+    margin-left: 22%;
   }
 }
 
