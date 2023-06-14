@@ -343,8 +343,134 @@ margin-top: 8%;
   text-align: center;
 }
 
+.caja_tecnologia{
+  width: 100%;
+  height: 800px;
+  background-color: #000000;
+  display: flex;
+}
+.caja_tecnologia_text{
+  width: 50%;
+  height: 800px;
+  font-size: 33px;
+  text-align: center;
+  color: #9b9bdd;
+  padding-top: 30px;
+  margin-left: 45%;
+}
 
+.tel{
+  width: 20%;
+  height: 600px;
+  margin-left: -85%;
+  margin-top: 5%;
+}
+.caja_marketing{
+  width: 100%;
+  height: 800px;
+  background-color: #999999;
+  display: flex;
+}
+.caja_marketing_text{
+  width: 50%;
+  height: 800px;
+  font-size: 33px;
+  text-align: center;
+  padding-top: 30px;
+}
+.img_marketing{
+  width: 50%;
+}
+.caja_datos{
+  width: 100%;
+  height: 800px;
+  background-color: #3f3fbf;
+  display: flex;
+}
+.caja_datos_text{
+  width: 50%;
+  height: 800px;
+  font-size: 33px;
+  text-align: center;
+  padding-top: 30px;
+  color: #9b9bdd;
+  margin-left: 50%;
+}
+.img_datos{
+  width: 50%;
+  margin-left: -100%;
+}
+.que_es_tech_camus{
+ background-color: #000000;
+ height: 800px;
+ display: flex;
+}
 
+.que_es_tech_camus_titulo{
+  text-align: center;
+  color: #3f3fbf;
+  font-size: 80px;
+  margin-left: 20%;
+  margin-top: 2%;
+}
+.logo_principal{
+  width: 40%;
+  height: 70%;
+  margin-top: 8%;
+  margin-left: -75%;
+}
+.que_es_tech_camus_text{
+  color: #9b9bdd;
+  font-size: 26.5px;
+  width: 50%;
+  height: 70%;
+  margin-top: 10%;
+  text-align: right;
+}
+.preguntas_frecuentes{
+  background-color: #000000;
+  height: 800px;
+ display: flex;
+}
+.preguntas_frecuentes_titulo{
+  background-color: #9b9bdd;
+  width: 500px;
+  height: 80px;
+  text-align: center;
+  margin-left: 33%;
+  border-radius: 40px;
+}
+.preguntas {
+  color: white;
+  margin-top: 160px;
+  margin-left: -60%;
+  font-size: 45px;
+  text-align: left;
+}
+
+.preguntas li {
+  margin-bottom: 40px;
+}
+.comunicate_con_nosotros{
+  background-color: #000000;
+  height: 800px;
+ display: flex;
+}
+.comunicate_con_nosotros_titulo{
+  text-align: center;
+  color: #3f3fbf;
+  font-size: 60px;
+  margin-left: 20%;
+  display: flex;
+}
+.comunicate_con_nosotros_formulario{
+  background-color: #9b9bdd;
+  width: 700px;
+  height: 500px;
+  display: flex;
+  margin-top: 15%;
+  margin-left: -55%;
+}
   @media only screen and (min-width:1201px) and(max-width:1500px){
 
     body{
@@ -354,12 +480,12 @@ margin-top: 8%;
     header{
       width: 100%;
     }
-
+    
     nav ul li {
       margin-right: 170px;
-  }
-  
-  
+    }
+    
+    
     .caja{
       display: flex;
       background-color: #7c7c84;
@@ -742,18 +868,20 @@ nav.nav-active {
 .informacion_inicial_titulo{
   font-size: 40px;
   width: 100%;
-  margin-top: 5%;
+  margin-top: 10%;
+  margin-left: -3%;
+  text-align: center;
 }
 .programacion{
   margin-left: 1%;
-  margin-top: 15%;
+  margin-top: 25%;
 }
 .marketing{
-margin-top: 70%;
+margin-top: 80%;
 margin-left: -65%;
 }
 .datos{
-  margin-top: 130%;
+  margin-top: 140%;
   margin-left: -65%;
 }
 }
@@ -816,20 +944,21 @@ margin-left: -65%;
   }
   
   .informacion_inicial_titulo{
-    font-size: 30px;
+    font-size: 25px;
     width: 100%;
     margin-top: 5%;
+    text-align: center;
   }
   .programacion{
-    margin-left:10%;
-    margin-top: 20%;
+    margin-left:5%;
+    margin-top: 30%;
   }
   .marketing{
-  margin-top: 100%;
-  margin-left: -90%;
+  margin-top: 110%;
+  margin-left: -95%;
   }
   .datos{
-    margin-top: 180%;
+    margin-top: 200%;
     margin-left: -95%;
   }
 }
@@ -886,6 +1015,76 @@ margin-left: -65%;
   }
   .inicio{
     width: 300px;
+  }
+
+  .informacion_inicial{
+    height: 1500px;
+    justify-content: none;
+    width: 100%;
+  }
+  
+  .informacion_inicial_titulo{
+    font-size: 25px;
+    width: 100%;
+    margin-top: 5%;
+    text-align: center;
+  }
+  .programacion{
+    margin-left:-15%;
+    width: 100%;
+
+  }
+
+  .celular_titulo{
+    font-size: 20px;
+    width: 210px;
+    margin-left: 22%;
+  }
+  .celular_text{
+    font-size: 15px;
+    width: 250px;
+    margin-left: 15%;
+  }
+  .marketing{
+  margin-top: 160%;
+  width: 100%;
+
+  }
+
+  .pc{
+    margin-left: 25%;
+  }
+
+  .pc_titulo{
+    font-size: 20px;
+    width: 220px;
+    margin-left: 15%;
+  }
+  .pc_text{
+    font-size: 15px;
+    width: 250px;
+    margin-left: 10%;
+  }
+  .datos{
+    margin-top: 300%;
+    margin-left: -115%;
+    width: 100%;
+
+  }
+
+  .lupa{
+    margin-left: 38%;
+  }
+
+  .lupa_titulo{
+    font-size: 20px;
+    width: 210px;
+    margin-left: 30%;
+  }
+  .lupa_text{
+    font-size: 15px;
+    width: 250px;
+    margin-left: 22%;
   }
 }
 
