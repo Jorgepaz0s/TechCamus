@@ -463,14 +463,55 @@ margin-top: 8%;
   margin-left: 20%;
   display: flex;
 }
-.comunicate_con_nosotros_formulario{
+.comunicate_con_nosotros_formulario {
   background-color: #9b9bdd;
   width: 700px;
-  height: 500px;
+  height: 600px;
   display: flex;
-  margin-top: 15%;
-  margin-left: -55%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 15% auto;
+  border-radius: 16%;
+  box-shadow: 0 0 10px #fff;
 }
+
+.comunicate_con_nosotros_formulario h1 {
+  color: #fff;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.comunicate_con_nosotros_formulario form {
+  width: 80%;
+}
+
+.comunicate_con_nosotros_formulario label {
+  color: #fff;
+  font-size: 16px;
+}
+
+.comunicate_con_nosotros_formulario input[type="text"],
+.comunicate_con_nosotros_formulario input[type="tel"],
+.comunicate_con_nosotros_formulario input[type="email"],
+.comunicate_con_nosotros_formulario textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+.comunicate_con_nosotros_formulario input[type="submit"] {
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.comunicate_con_nosotros_formulario input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
   @media only screen and (min-width:1201px) and(max-width:1500px){
 
     body{

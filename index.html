@@ -121,7 +121,32 @@
 </div> 
 <div class="comunicate_con_nosotros">
   <h1 class="comunicate_con_nosotros_titulo">COMUNICATE CON NOSOTROS</h1>
-  <div class="comunicate_con_nosotros_formulario"></div>
+  <div class="comunicate_con_nosotros_formulario">
+    <h1>Solicita tu presupuesto</h1>
+    <form id="formulario" action="http://localhost:8080/enviar" method="post">
+      <label for="nombre">Nombre y Apellido:</label><br>
+      <input type="text" id="nombre" name="nombre" required><br><br>
+      
+      <label for="telefono">Teléfono:</label><br>
+      <input type="tel" id="telefono" name="telefono" required><br><br>
+      
+      <label for="pais">País:</label><br>
+      <input type="text" id="pais" name="pais" required><br><br>
+      
+      <label for="email">Correo electrónico:</label><br>
+      <input type="email" id="email" name="email" required><br><br>
+      
+      <label for="mensaje">Mensaje:</label><br>
+      <textarea id="mensaje" name="mensaje" required></textarea><br><br>
+      
+      <input type="submit" value="Enviar">
+    </form>
+  </div>
+</div>
+
+  <script src="script.js"></script>
+</html>
+
 </div>
 </body>
 </html>

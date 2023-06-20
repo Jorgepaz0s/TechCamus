@@ -23,3 +23,42 @@ body.addEventListener('click', (event) => {
     nav.classList.remove('nav-active');
   }
 });
+
+document.getElementById('formulario').addEventListener('submit', function(event) {
+  event.preventDefault(); // Evitar el envío del formulario
+
+  // Obtener los valores del formulario
+  const nombre = document.getElementById('nombre').value;
+  const email = document.getElementById('email').value;
+  const mensaje = document.getElementById('mensaje').value;
+
+  // Crear el objeto de datos a enviar
+  const datos = {
+    nombre: nombre,
+    email: email,
+    mensaje: mensaje
+  };
+
+  // Realizar la petición POST al servidor
+  fetch('/enviar', {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json'
+    },
+    body: JSON.stringify(datos)
+  })
+  .then(response => response.json())
+  .then(data => {
+    if (data.success) {
+      alert(data.message); // Mostrar mensaje de éxito
+      // Limpiar el formulario si se envió correctamente
+      document.getElementById('formulario').reset();
+    } else {
+      alert('Error al enviar el formulario: ' + data.message); // Mostrar mensaje de error
+    }
+  })
+  .catch(error => {
+    console.error('Error al enviar el formulario:', error);
+    alert('Error al enviar el formulario');
+  });
+});
