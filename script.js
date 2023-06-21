@@ -29,12 +29,16 @@ document.getElementById('formulario').addEventListener('submit', function(event)
 
   // Obtener los valores del formulario
   const nombre = document.getElementById('nombre').value;
+  const telefono = document.getElementById('telefono').value;
+  const pais = document.getElementById('pais').value;
   const email = document.getElementById('email').value;
   const mensaje = document.getElementById('mensaje').value;
 
   // Crear el objeto de datos a enviar
   const datos = {
     nombre: nombre,
+    telefono: telefono,
+    pais: pais,
     email: email,
     mensaje: mensaje
   };
@@ -47,15 +51,12 @@ document.getElementById('formulario').addEventListener('submit', function(event)
     },
     body: JSON.stringify(datos)
   })
-  .then(response => response.json())
+  .then(response => response.text()) // Leer la respuesta como texto
   .then(data => {
-    if (data.success) {
-      alert(data.message); // Mostrar mensaje de éxito
-      // Limpiar el formulario si se envió correctamente
-      document.getElementById('formulario').reset();
-    } else {
-      alert('Error al enviar el formulario: ' + data.message); // Mostrar mensaje de error
-    }
+    console.log(data); // Mostrar la respuesta en la consola del navegador
+    alert('Correo enviado con éxito'); // Mostrar mensaje de éxito
+    // Limpiar el formulario si se envió correctamente
+    document.getElementById('formulario').reset();
   })
   .catch(error => {
     console.error('Error al enviar el formulario:', error);

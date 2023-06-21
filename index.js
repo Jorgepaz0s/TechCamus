@@ -31,12 +31,25 @@ async function enviarCorreo(formulario) {
       },
     });
 
-    // Contenido del correo
+    // Construir el contenido del correo como texto plano
+    let contenidoTexto = `
+      Consulta de potencial cliente:
+
+      - Nombre: ${formulario.nombre}
+      - Teléfono: ${formulario.telefono}
+      - País: ${formulario.pais}
+      - Email: ${formulario.email}
+
+      Mensaje:
+      ${formulario.mensaje}
+    `;
+
+    // Configurar el correo
     let mailOptions = {
       from: 'jorgepazosn@gmail.com',
       to: 'jorgepazosn@gmail.com',
-      subject: 'Nuevo formulario enviado',
-      text: JSON.stringify(formulario),
+      subject: 'TECH CAMUS',
+      text: contenidoTexto,
     };
 
     // Envío del correo
