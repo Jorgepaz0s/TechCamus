@@ -427,34 +427,56 @@ margin-top: 8%;
   margin-top: 10%;
   text-align: right;
 }
-.preguntas_frecuentes{
-  background-color: #000000;
-  height: 800px;
- display: flex;
+.preguntas_frecuentes {
+  margin-bottom: 40px;
+background-color: #000000;
+margin-top: -3%;
 }
-.preguntas_frecuentes_titulo{
-  background-color: #9b9bdd;
-  width: 500px;
-  height: 80px;
+
+.preguntas_frecuentes_titulo {
   text-align: center;
-  margin-left: 33%;
-  border-radius: 40px;
+  margin-bottom: 20px;
+  color: #3f3fbf;
 }
+
+.preguntas_frecuentes_titulo h1 {
+  font-size: 40px;
+}
+
 .preguntas {
-  color: white;
-  margin-top: 160px;
-  margin-left: -60%;
-  font-size: 45px;
-  text-align: left;
+  list-style: none;
 }
 
 .preguntas li {
-  margin-bottom: 40px;
+  font-size: 155%;
+  margin-bottom: 20px;
+  color: #9b9bdd;
 }
+
+.details {
+  padding: 10px;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #9b9bdd;
+  color: #fff;
+}
+
+.details summary {
+  font-weight: bold;
+  color: #3f3fbf;
+}
+
+.details p {
+  margin-top: 10px;
+  color: #3f3fbf;
+}
+
 .comunicate_con_nosotros{
   background-color: #000000;
-  height: 800px;
+  height: 1000px;
  display: flex;
+ margin-top: -3%;
 }
 .comunicate_con_nosotros_titulo{
   text-align: center;
@@ -462,23 +484,25 @@ margin-top: 8%;
   font-size: 60px;
   margin-left: 20%;
   display: flex;
+  margin-top: 5%
 }
 .comunicate_con_nosotros_formulario {
   background-color: #9b9bdd;
   width: 700px;
-  height: 600px;
+  height: 680px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 15% auto;
+  margin-top: 13%;
+  margin-left: -55%;
   border-radius: 16%;
   box-shadow: 0 0 10px #fff;
 }
 
 .comunicate_con_nosotros_formulario h1 {
-  color: #fff;
-  font-size: 24px;
+  color: #3f3fbf;
+  font-size: 45px;
   margin-bottom: 20px;
 }
 
@@ -487,8 +511,8 @@ margin-top: 8%;
 }
 
 .comunicate_con_nosotros_formulario label {
-  color: #fff;
-  font-size: 16px;
+  color: #3f3fbf;
+  font-size: 20px;
 }
 
 .comunicate_con_nosotros_formulario input[type="text"],
@@ -498,19 +522,95 @@ margin-top: 8%;
   width: 100%;
   padding: 8px;
   margin-bottom: 10px;
+  border-radius: 15px;
+  background-color: #3f3fbf;
+  color: #fff;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .comunicate_con_nosotros_formulario input[type="submit"] {
-  background-color: #4CAF50;
+  background-color: #3f3fbf;
   color: #fff;
-  border: none;
-  padding: 10px 20px;
+  border-radius: 15px;
+  padding: 15px 25px;
+  font-size: 30px;
   cursor: pointer;
+  margin-left: 40%;
 }
 
 .comunicate_con_nosotros_formulario input[type="submit"]:hover {
   background-color: #45a049;
 }
+
+/* Estilos generales del footer */
+footer {
+  background-color: #3f3fbf;
+  color: #fff;
+  padding: 30px;
+  text-align: center;
+}
+
+/* Estilos para la primera columna */
+footer h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+footer p {
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+/* Estilos para la segunda y tercera columna */
+footer h4 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+/* Estilos para los enlaces */
+footer a {
+  color: #9b9bdd;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+footer a:hover {
+  color: #ffffff;
+}
+
+/* Estilos para la línea divisoria */
+footer hr {
+  border-color: #fff;
+  margin: 40px auto;
+  width: 50%;
+}
+
+/* Estilos para el mensaje de derechos de autor */
+footer p:last-child {
+  font-size: 12px;
+  margin-top: 20px;
+}
+
+/* Estilos para la estructura de columnas */
+footer div {
+  display: inline-block;
+  vertical-align: top;
+  margin: 0 20px;
+}
+
+/* Estilos para la lista de enlaces */
+footer ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Estilos para los elementos de la lista */
+footer li {
+  margin-bottom: 10px;
+}
+
 
   @media only screen and (min-width:1201px) and(max-width:1500px){
 
