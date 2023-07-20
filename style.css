@@ -352,7 +352,7 @@ margin-top: 8%;
 .caja_tecnologia_text{
   width: 50%;
   height: 800px;
-  font-size: 33px;
+  font-size: 30px;
   text-align: center;
   color: #9b9bdd;
   padding-top: 30px;
@@ -374,7 +374,7 @@ margin-top: 8%;
 .caja_marketing_text{
   width: 50%;
   height: 800px;
-  font-size: 33px;
+  font-size: 30px;
   text-align: center;
   padding-top: 30px;
 }
@@ -390,9 +390,9 @@ margin-top: 8%;
 .caja_datos_text{
   width: 50%;
   height: 800px;
-  font-size: 33px;
+  font-size: 30px;
   text-align: center;
-  padding-top: 30px;
+  padding-top: 10px;
   color: #9b9bdd;
   margin-left: 50%;
 }
@@ -409,8 +409,8 @@ margin-top: 8%;
 .que_es_tech_camus_titulo{
   text-align: center;
   color: #3f3fbf;
-  font-size: 80px;
-  margin-left: 20%;
+  font-size: 70px;
+  margin-left: 18%;
   margin-top: 2%;
 }
 .logo_principal{
@@ -482,7 +482,7 @@ margin-top: -3%;
   text-align: center;
   color: #3f3fbf;
   font-size: 60px;
-  margin-left: 20%;
+  margin-left: 17%;
   display: flex;
   margin-top: 5%
 }
@@ -612,7 +612,7 @@ footer li {
 }
 
 
-  @media only screen and (min-width:1201px) and(max-width:1500px){
+  @media only screen and (min-width:1025px) and(max-width:1500px){
 
     body{
       width: 1500px;
@@ -726,6 +726,34 @@ footer li {
       font-size: 25px;
       width: 300px;
     }
+    .caja_datos_text{
+      font-size: 25px;
+    }
+    .caja_datos_titulo{
+      font-size: 100px;
+      width: 300px;
+    }
+    .que_es_tech_camus_titulo{
+      font-size: 45px;
+      margin-left: 25%;
+    }
+    .que_es_tech_camus_text{
+      font-size: 25px;
+    }
+    .comunicate_con_nosotros_titulo{
+      font-size: 45px;
+      margin-left: 13%;
+    }
+    .comunicate_con_nosotros_formulario{
+      margin-left: -65%;
+    }
+    .logo_principal{
+      height: 450px;
+      margin-top: 20%;
+    }
+    .comunicate_con_nosotros{
+      margin-top: -41px;
+    }
   }
   
 
@@ -763,10 +791,27 @@ footer li {
 .cont{
     width: 400px;
     height:500px;
-    margin-left:0%;
+    margin-left:3%;
     margin-top: 150px;
   }
   
+  .caja_datos_text{
+    font-size: 30px;
+  }
+  .caja_datos_titulo{
+    font-size: 100px;
+    width: 300px;
+  }
+  .que_es_tech_camus_titulo{
+    font-size: 60px;
+    margin-left: 25%;
+  }
+  .comunicate_con_nosotros_titulo{
+    margin-left: 15%;
+  }
+  .comunicate_con_nosotros_formulario{
+    margin-left: -63%;
+  }
 }
 
   
@@ -1025,6 +1070,41 @@ margin-left: -65%;
   margin-top: 140%;
   margin-left: -65%;
 }
+.caja_tecnologia_text{
+  font-size: 23px;
+}
+
+.tel{
+  width: 230px;
+}
+
+.caja_marketing_text{
+  font-size: 23px;
+}
+.caja_datos_text{
+  font-size: 23px;
+}
+.que_es_tech_camus_titulo{
+  font-size: 35px;
+  margin-left: 25%;
+}
+.que_es_tech_camus_text{
+  font-size: 22px;
+}
+.comunicate_con_nosotros_titulo{
+  font-size: 30px;
+  margin-left: 20%;
+}
+.comunicate_con_nosotros_formulario{
+  margin-left: -76%;
+}
+.logo_principal{
+  height: 350px;
+  margin-top: 25%;
+}
+.comunicate_con_nosotros{
+  margin-top: -41px;
+}
 }
 
 @media (max-width:500px){
@@ -1102,6 +1182,58 @@ margin-left: -65%;
     margin-top: 200%;
     margin-left: -95%;
   }
+  .caja_tecnologia_text{
+    font-size: 26px;
+    width: 100%;
+    margin-left: 3%;
+  }
+  
+  .tel{
+    display: none;
+  }
+  
+  .caja_marketing_text{
+    font-size: 26px;
+    width: 100%;
+  }
+  .img_marketing{
+    display: none;
+  }
+  .caja_datos_text{
+    font-size: 25px;
+    width: 100%;
+    margin-left: 3%;
+  }
+  .img_datos{
+    display: none;
+  }
+  .que_es_tech_camus_titulo{
+    font-size: 30px;
+    margin-left: 15%;
+  }
+  .que_es_tech_camus_text{
+    font-size: 23px;
+    margin-left: -88%;
+    width: 100%;
+    text-align: center;
+  }
+  .comunicate_con_nosotros_titulo{
+    font-size: 30px;
+    margin-left: 20%;
+  }
+  .comunicate_con_nosotros_formulario{
+    margin-left: -76%;
+  }
+  .logo_principal{
+    display: none;
+  }
+  .comunicate_con_nosotros h1{
+    font-size: 25px;
+  }
+  .comunicate_con_nosotros_formulario{
+    margin-top: 25%;
+  }
+  
 }
 
 @media(max-width:320px){
@@ -1227,5 +1359,130 @@ margin-left: -65%;
     width: 250px;
     margin-left: 22%;
   }
+  .caja_tecnologia_text{
+    font-size: 21px;
+    width: 100%;
+    margin-left: 3%;
+  }
+  
+  .tel{
+    display: none;
+  }
+  
+  .caja_marketing_text{
+    font-size: 21px;
+    width: 100%;
+  }
+  .img_marketing{
+    display: none;
+  }
+  .caja_datos_text{
+    font-size: 21px;
+    width: 100%;
+    margin-left: 3%;
+  }
+  .img_datos{
+    display: none;
+  }
+  .que_es_tech_camus_titulo{
+    font-size: 18px;
+    margin-left: 15%;
+  }
+  .que_es_tech_camus_text{
+    font-size: 18px;
+    margin-left: -80%;
+    width: 100%;
+    text-align: center;
+    margin-top: 20%;
+  }
+  .comunicate_con_nosotros_titulo{
+    font-size: 20px;
+    width: 100px;
+  }
+  .comunicate_con_nosotros_formulario{
+    margin-left: -76%;
+  }
+  .logo_principal{
+    display: none;
+  }
+  .preguntas_frecuentes_titulo{
+    font-size: 10px;
+  }
+  .preguntas{
+    font-size: 12px;
+    margin-left: -8%;
+    width: 250px;
+  }
+  .comunicate_con_nosotros h1{
+    font-size: 22px;
+  }
+  .comunicate_con_nosotros{
+    background-color: #000000;
+    height: 1000px;
+   display: flex;
+   margin-top: -3%;
+  }
+  .comunicate_con_nosotros_titulo{
+    text-align: center;
+    color: #3f3fbf;
+    font-size: 60px;
+    margin-left: 30%;
+    display: flex;
+    margin-top: 5%
+  }
+  .comunicate_con_nosotros_formulario {
+    background-color: #9b9bdd;
+    width: 300px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 55%;
+    margin-left: -58%;
+    border-radius: 16%;
+    box-shadow: 0 0 10px #fff;
+  }
+  
+  .comunicate_con_nosotros_formulario h1 {
+    color: #3f3fbf;
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .comunicate_con_nosotros_formulario form {
+    width: 70%;
+  }
+  
+  .comunicate_con_nosotros_formulario label {
+    color: #3f3fbf;
+    font-size: 20px;
+  }
+  
+  .comunicate_con_nosotros_formulario input[type="text"],
+  .comunicate_con_nosotros_formulario input[type="tel"],
+  .comunicate_con_nosotros_formulario input[type="email"],
+  .comunicate_con_nosotros_formulario textarea {
+    width: 90%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    background-color: #3f3fbf;
+    color: #fff;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .comunicate_con_nosotros_formulario input[type="submit"] {
+    background-color: #3f3fbf;
+    color: #fff;
+    border-radius: 15px;
+    padding: 15px 25px;
+    font-size: 30px;
+    cursor: pointer;
+    margin-left: 40%;
+  }
+
+  
 }
 
